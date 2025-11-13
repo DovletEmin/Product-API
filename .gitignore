@@ -1,0 +1,49 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Temporary files and build artifacts
+*.log
+*.tmp
+*.temp
+
+# Dependency directories (uncomment if you use vendoring)
+# vendor/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# macOS files
+.DS_Store
+
+# Go workspace settings (Go 1.18+)
+go.work
+go.work.sum
+
+# Environment/config files (if used locally)
+.env
+.env.local
+
+# Build output
+bin/
+dist/
+build/
+
+# Docker
+*.tar
+*.pid
+*.lock
+docker-compose.override.yml
